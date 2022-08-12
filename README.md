@@ -8,7 +8,7 @@ This service deployable on Cloud Run allows you to automatically delete previous
 
 1. Click the deploy button:
 
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/SantiMA10/app-engine-version-cleaner.git)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/mgrofsky/app-engine-version-cleaner.git)
 
 2. Give the Cloud Run service the `App Engine Admin` role.
 3. Create a new `google.appengine.v1.Versions.CreateVersion` trigger for the Cloud Run service.
